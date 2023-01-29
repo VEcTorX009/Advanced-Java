@@ -1,0 +1,41 @@
+// How to input arrays via scanner;
+/* 
+import java.util.Scanner;
+public class PrimeNumbers{
+public static void main (String[] args){
+    int[] array = new int [5];
+    Scanner in = new Scanner (System.in);
+
+    System.out.println("Enter the elements of the array: ");
+    for(int i=0; i<5; i++)
+    {
+        array[i] = in.nextInt();
+    }
+*/
+//Executor- An object that executes submitted Runnable tasks.
+/*The Java ExecutorService is the interface which allows us
+to execute tasks on threads asynchronously */
+/*Runnable is an interface that is to be implemented by a 
+class whose instances are intended to be executed by a thread. */
+/*Callable , represents an asynchronous task which can be
+executed by a separate thread. For instance, it is possible 
+to submit a Callable object to a Java ExecutorService which will 
+then execute it asynchronously. */
+ /*Synchronous (Sync) and asynchronous (Async) programming can
+be done in one or multiple threads. The main difference
+between the two is when using synchronous programming we can 
+execute one task at a time, but when using asynchronous programming
+ we can execute multiple tasks at the same time.*/
+ /* The Callable object returns a Future object which
+ provides methods to monitor the progress of a task being
+executed by a thread. ... The future object can be used
+ to check the status of a Callable and then retrieve 
+the result from the Callable once the thread is done. */
+/*A Java Future, java. ... Future , represents the result of an 
+asynchronous computation.
+ When the asynchronous task is created, a Java Future object 
+ is returned. This Future object functions as a handle to the 
+ result of the asynchronous task. */  
+ /*taking input by buffered reader;
+ BufferedReader br = new BufferedReader(new InputStreamReader(System.in))
+ char ch = char.parseint(br.readline()); */
